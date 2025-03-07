@@ -1,0 +1,26 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
