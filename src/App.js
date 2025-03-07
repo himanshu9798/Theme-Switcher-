@@ -1,4 +1,3 @@
-// /src/App.js
 
 import React, { useEffect } from 'react';
 import { ThemeProvider, useTheme } from './contexts/ThemeContext';
